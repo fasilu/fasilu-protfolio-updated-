@@ -16,7 +16,7 @@ html
 }
 body
 {
-    font-family: "Kaushan Script", cursive;
+    font-family: "Josefin Sans", cursive;
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
@@ -75,26 +75,6 @@ img
 {
     color: var(--white);
     background-color: rgba(0,167,142,0.7);
-}
-
-.btn-2
-{
-    background-color: var(--white);
-    padding: 15px 40px;
-    border: none;
-    color: var(--main-color);
-    border-radius: 5px;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
-    border: 1px solid var(--main-color);
-    transition: all 0.3s ease-out;
-}
-.btn-2:hover
-{
-    color: var(--white);
-    background-color: var(--main-color);
-    border: none;
 }
 .section-padding
 {
@@ -407,10 +387,7 @@ img
     transform: rotate(11deg);
     border-top-left-radius: 20px;
 }
-.about-content .about-title span
-{
-    color: var(--main-color);
-}
+
 .about-content p
 {
     font-size: 16px;
